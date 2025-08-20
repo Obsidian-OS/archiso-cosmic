@@ -142,14 +142,7 @@ wayland-protocols
 cosmic-session
 cosmic-greeter
 cosmic-icon-theme
-gnome-shell
-gnome-terminal
 nautilus
-gnome-control-center
-gnome-settings-daemon
-gnome-tweaks
-gnome-software
-gnome-software-packagekit-plugin
 gdm
 firefox
 pyside6
