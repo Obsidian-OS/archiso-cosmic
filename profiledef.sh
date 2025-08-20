@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="obsidianos-kde"
-iso_label="OBSIDIANOS_KDE_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
+iso_name="obsidianos-cosmic"
+iso_label="OBSIDIANOS_COSMIC_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
 iso_publisher="ObsidianOS <https://obsidianos.xyz/>"
 iso_application="ObsidianOS Live ISO (KDE)"
 iso_version="$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y.%m.%d)"
