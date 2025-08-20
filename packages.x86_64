@@ -129,7 +129,6 @@ fastfetch
 git
 pv
 
-
 mesa
 vulkan-intel
 vulkan-radeon
@@ -140,15 +139,22 @@ xorg-xwayland
 wayland
 wayland-protocols
 
-plasma-meta
-
-sddm
-sddm-kcm
-
-networkmanager
-packagekit-qt5
-discover
-konsole
-dolphin
+cosmic-session
+cosmic-greeter
+cosmic-icon-theme
+gnome-shell
+gnome-terminal
+nautilus
+gnome-control-center
+gnome-settings-daemon
+gnome-tweaks
+gnome-software
+gnome-software-packagekit-plugin
+gdm
 firefox
 pyside6
+
+network-manager-applet
+eog
+evince
+gedit
