@@ -128,7 +128,6 @@ fish
 fastfetch
 git
 pv
-
 mesa
 vulkan-intel
 vulkan-radeon
@@ -138,15 +137,13 @@ mesa-vdpau
 xorg-xwayland
 wayland
 wayland-protocols
-
-cosmic-session
+cosmic
 cosmic-greeter
 cosmic-icon-theme
 nautilus
 gdm
 firefox
 pyside6
-
 network-manager-applet
 eog
 evince
