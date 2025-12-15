@@ -1,4 +1,4 @@
-PACKAGES="$PACKAGES mesa vulkan-intel vulkan-radeon vulkan-nouveau libva-mesa-driver mesa-vdpau xorg-xwayland wayland wayland-protocols cosmic cosmic-greeter cosmic-session"
+PACKAGES="$PACKAGES mesa vulkan-intel vulkan-radeon vulkan-nouveau libva-mesa-driver xorg-xwayland wayland wayland-protocols cosmic cosmic-greeter cosmic-session"
 SERVICES="$SERVICES cosmic-greeter"
 ROOT_HAVEPASSWORD="nopassword"
 ADMIN_PASSWORD="user"
