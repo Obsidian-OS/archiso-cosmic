@@ -146,3 +146,7 @@ network-manager-applet
 eog
 evince
 gedit
+lightdm
+lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
+qt6
