@@ -1,5 +1,6 @@
-PACKAGES="$PACKAGES mesa vulkan-intel vulkan-radeon vulkan-nouveau libva-mesa-driver xorg-xwayland wayland wayland-protocols cosmic cosmic-greeter cosmic-session lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings"
+PACKAGES="$PACKAGES mesa vulkan-intel vulkan-radeon vulkan-nouveau libva-mesa-driver xorg-xwayland wayland wayland-protocols cosmic cosmic-greeter cosmic-session lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings systemsettings"
 SERVICES="$SERVICES lightdm"
 ROOT_HAVEPASSWORD="nopassword"
 ADMIN_PASSWORD="user"
+YAY_GET="$YAY_GET obsidianos-kcm"
 POST_INSTALL="sed -i 's|^#\?greeter-session=.*|greeter-session=lightdm-gtk-greeter|' /etc/lightdm/lightdm.conf"
