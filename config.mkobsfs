@@ -2,5 +2,5 @@ PACKAGES="$PACKAGES mesa vulkan-intel vulkan-radeon vulkan-nouveau libva-mesa-dr
 SERVICES="$SERVICES lightdm"
 ROOT_HAVEPASSWORD="nopassword"
 ADMIN_PASSWORD="user"
-YAY_GET="$YAY_GET obsidianos-kcm"
+YAY_GET="$YAY_GET obsidianos-kcm-git"
 POST_INSTALL="sed -i 's|^#\?greeter-session=.*|greeter-session=lightdm-gtk-greeter|' /etc/lightdm/lightdm.conf"
